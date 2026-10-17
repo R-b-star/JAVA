@@ -17,7 +17,7 @@ public class Insertion {
 				lista[j+1]=lista[j];
 				j--;
 			}
-			lista[j+1]=key;
+			lista[j+1]=key;//Drop the card I'm holding (actual) into the empty slot right next to where I stopped (j + 1).
 			
 		}
 	}
